@@ -9,9 +9,11 @@ jobs:
       
 
     steps: 
-      - name: 'Testing GitHub action'
-        run: pwd
+      - name: 'Before'
+        run: echo marwan
 
-      - name: 'print my name'
-        run: echo marwan 
+      - user: actions/checkout@v3 
+
+      - name: 'After'
+        run: echo marwan
 
