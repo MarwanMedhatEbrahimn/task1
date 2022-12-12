@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    run-on: ubuntu-lastest
+    runs-on: ubuntu-lastest
       
 
     steps: 
