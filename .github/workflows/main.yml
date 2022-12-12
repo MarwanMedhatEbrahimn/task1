@@ -1,1 +1,16 @@
+on: 
+  push:
+    branches:
+      - master
 
+jobs:
+  build:
+    run-on: ubuntu-lastest
+      
+
+    steps: 
+      - name: 'Testing GitHub action'
+        run: pwd
+      - name: 'print my name'
+        run: echo marwan 
+      
