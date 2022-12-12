@@ -10,10 +10,10 @@ jobs:
 
     steps: 
       - name: 'Before'
-        run: echo marwan
+        run: ls
 
       - uses: actions/checkout@v3 
 
       - name: 'After'
-        run: echo marwan
+        run: ls
 
